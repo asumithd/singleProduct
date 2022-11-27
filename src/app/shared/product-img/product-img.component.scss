@@ -1,0 +1,16 @@
+.productBg {
+    background: #fff;
+    height: 11rem;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin-bottom: 1.5rem;
+    border-radius: 20% 20% 10% 10%;
+    clip-path: polygon(6% 0%, 87% -100%, 100% 100%, 0% 100%);
+    img {
+        object-fit: contain;
+        width: 80%;
+        position: absolute;
+        top: -10px;
+    }
+}
