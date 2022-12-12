@@ -4,7 +4,7 @@
     justify-content: center;
     display: flex;
     position: relative;
-    margin-bottom: 1.5rem;
+    margin-bottom: .5rem;
     border-radius: 20% 20% 10% 10%;
     clip-path: polygon(6% 0%, 87% -100%, 100% 100%, 0% 100%);
     img {
@@ -13,4 +13,33 @@
         position: absolute;
         top: -10px;
     }
+}
+
+.productDBox {
+    padding: 0 0 20px 20px;
+    h3.paymentText {
+        margin: 0;
+        padding-top: 7px;
+        color: #090979;
+    }
+    h5.descriptionText {
+        margin: 0;
+        color: #666f78;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    ion-label.productName {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+.countBox {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 20px;
 }

@@ -1,0 +1,50 @@
+.detailsProductBg {
+    background: #fff;
+    height: 21rem;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin-bottom: .5rem;
+    border-radius: 20% 20% 10% 10%;
+    clip-path: polygon(6% 0%, 87% -100%, 100% 100%, 0% 100%);
+    img {
+        object-fit: contain;
+        width: 80%;
+        position: absolute;
+        top: -20px;
+    }
+}
+
+.detailsProductDBox {
+    padding: 0 0 20px 0px;
+    h3.paymentText {
+        margin: 0;
+        padding-top: 7px;
+        color: #090979;
+    }
+    h5.descriptionText {
+        margin: 0;
+        color: #666f78;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    ion-label.detailsProductName {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .baseBgColor {
+        color: #090979;
+    }
+    .endBox {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: end;
+    }
+    h4.productTitle {
+        font-weight: 600;
+    }
+    p.descriptionNote {
+        text-align: justify;
+    }
+}

@@ -1,3 +1,5 @@
+import { ButtonBannerComponent } from './../button-banner/button-banner.component';
+import { ProductDetailBoxComponent } from './../product-detail-box/product-detail-box.component';
 import { ChipBarComponent } from './../chip-bar/chip-bar.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -11,13 +13,13 @@ import { ProductImgComponent } from '../product-img/product-img.component';
 
 
 @NgModule({
-  declarations: [HeaderComponent, ListSearchComponent, ChipBarComponent,ListProductComponent,ProductBoxComponent,ProductImgComponent],
+  declarations: [HeaderComponent, ListSearchComponent, ChipBarComponent, ListProductComponent, ProductBoxComponent, ProductImgComponent, ProductDetailBoxComponent, ButtonBannerComponent],
   imports: [
     CommonModule,
     IonicModule,
   ],
   exports: [
-    HeaderComponent, ListSearchComponent, ChipBarComponent,ListProductComponent,ProductBoxComponent,ProductImgComponent
+    HeaderComponent, ListSearchComponent, ChipBarComponent, ListProductComponent, ProductBoxComponent, ProductImgComponent, ProductDetailBoxComponent, ButtonBannerComponent
   ]
 })
 export class SharedModule { }
